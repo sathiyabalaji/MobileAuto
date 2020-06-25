@@ -8,7 +8,7 @@
     <classes>
       <class name="com.mobileAuto.MobileAutomation">
         <methods>
-          <include name="saveData"/>
+          <include name="ViewData"/>
         </methods>
       </class> <!-- com.mobileAuto.MobileAutomation -->
     </classes>

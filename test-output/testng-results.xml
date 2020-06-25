@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
+<testng-results skipped="0" failed="0" ignored="6" total="9" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="75819" started-at="2020-06-25T12:14:37 IST" finished-at="2020-06-25T12:15:53 IST">
+  <suite name="Suite" duration-ms="82264" started-at="2020-06-25T14:11:56 IST" finished-at="2020-06-25T14:13:19 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="75819" started-at="2020-06-25T12:14:37 IST" finished-at="2020-06-25T12:15:53 IST">
+    <test name="Test" duration-ms="82264" started-at="2020-06-25T14:11:56 IST" finished-at="2020-06-25T14:13:19 IST">
       <class name="com.mobileAuto.MobileAutomation">
-        <test-method status="PASS" signature="launchApp()[pri:1, instance:com.mobileAuto.MobileAutomation@4b44655e]" name="launchApp" duration-ms="51966" started-at="2020-06-25T12:14:37 IST" finished-at="2020-06-25T12:15:29 IST">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.mobileAuto.MobileAutomation@1d76aeea]" name="launchApp" duration-ms="58322" started-at="2020-06-25T14:11:56 IST" finished-at="2020-06-25T14:12:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method status="PASS" signature="saveData()[pri:2, instance:com.mobileAuto.MobileAutomation@4b44655e]" name="saveData" duration-ms="20783" started-at="2020-06-25T12:15:30 IST" finished-at="2020-06-25T12:15:50 IST">
+        <test-method status="PASS" signature="saveData()[pri:0, instance:com.mobileAuto.MobileAutomation@1d76aeea]" name="saveData" duration-ms="20820" started-at="2020-06-25T14:12:55 IST" finished-at="2020-06-25T14:13:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveData -->
-        <test-method status="PASS" signature="CloseApp()[pri:3, instance:com.mobileAuto.MobileAutomation@4b44655e]" name="CloseApp" duration-ms="567" started-at="2020-06-25T12:15:51 IST" finished-at="2020-06-25T12:15:52 IST">
+        <test-method status="PASS" signature="CloseApp()[pri:0, instance:com.mobileAuto.MobileAutomation@1d76aeea]" name="CloseApp" duration-ms="553" started-at="2020-06-25T14:13:17 IST" finished-at="2020-06-25T14:13:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseApp -->

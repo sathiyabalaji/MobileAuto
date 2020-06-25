@@ -38,7 +38,7 @@ public class MobileAutomation {
 
 	//public static void main(String[] args) throws MalformedURLException, InterruptedException {
 	static AndroidDriver<WebElement> driver;
-	@Test(priority=1)
+	@Test()
 		public void launchApp() throws IOException {
 		
 		// TODO Auto-generated method stub
@@ -71,7 +71,7 @@ public class MobileAutomation {
 		//driver.toggleWifi();
 	}
 //	@Test(priority=2,enabled=false)
-	@Test(priority=2)
+	@Test()
      public void saveData() throws IOException, InterruptedException {
 		
 
@@ -183,14 +183,33 @@ public class MobileAutomation {
 		
 	//}
 	
-	@Test(priority=3)
+	@Test()
 	public void CloseApp() throws IOException {
 		driver.closeApp();
 		
 	}
 	
 	
-	@Test(priority=4)
+	@Test()
+	public void ViewData() throws IOException, InterruptedException {
+		driver.findElement(By.id("subathrainfotech.healthcare:id/Prescription_button")).click();
+		driver.findElement(By.id("subathrainfotech.healthcare:id/Read_button_Display")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.id("subathrainfotech.healthcare:id/Home_button_Display")).click();
+			
+	}
+	
+	@Test()
+	public void Navigation() throws IOException, InterruptedException {
+		driver.findElement(By.id("subathrainfotech.healthcare:id/Display_button")).click();
+		driver.findElement(By.id("subathrainfotech.healthcare:id/Read_button_Display")).click();
+		Thread.sleep(1000);
+		driver.findElement(By.id("subathrainfotech.healthcare:id/Home_button_Display")).click();
+			
+	}
+	
+	
+	@Test()
 	public void launchBrowser() throws IOException {
 	
 	// TODO Auto-generated method stub
